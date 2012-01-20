@@ -8,7 +8,7 @@
 
 function hex2str($hex) {
 
-  $hex	= str_replace(' ', '', $hex);
+	$hex	= str_replace(' ', '', $hex);
 	$hex	= str_replace('\\', '', $hex);
 	$hex	= str_replace('x', '', $hex);
 	$hexstr	= pack('H*', $hex);
